@@ -1,0 +1,14 @@
+# ------------------------------------------------------------
+# Groupe d'une graine de blé (clustering DBSCAN) — dépendances Streamlit
+# Les versions de numpy / scikit-learn / joblib doivent être celles
+# qui ont créé modele_dbscan.joblib (fin du notebook).
+# ------------------------------------------------------------
+
+# Application
+streamlit
+
+# Modèle et données
+scikit-learn==1.6.1
+numpy==2.5.3
+pandas==2.3.3
+joblib==1.6.0
